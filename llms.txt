@@ -1,0 +1,6 @@
+# Main Street AI Brief
+> Plain-English AI for small business owners: what works, what to avoid, and what it means for your shop.
+
+- [Most small businesses use AI. Few feel confident with it.](https://mainstreetaibrief.com/issues/ai-confidence-gap.html)
+- [The barrier is expertise, not cost](https://mainstreetaibrief.com/issues/expertise-not-cost.html)
+- [Only 23% of small firms have a written AI policy](https://mainstreetaibrief.com/issues/ai-policy-gap.html)
