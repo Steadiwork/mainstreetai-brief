@@ -19,3 +19,14 @@
 - [Get clients to send their documents on time](https://mainstreetaibrief.com/use-cases/get-client-documents-on-time.html): Build a plain-English document checklist and a friendly three-step reminder sequence with AI, so you spend less of busy season chasing paperwork.
 - [Cut no-shows with better reminders and a clear deposit policy](https://mainstreetaibrief.com/use-cases/cut-no-shows.html): Write a friendly cancellation and deposit policy plus a reminder sequence with AI, so clients know the rules before they book and fewer forget.
 - [Win back clients who haven't rebooked](https://mainstreetaibrief.com/use-cases/rebook-lapsed-clients.html): Find regulars who are past their usual rebooking window and send a short, personal note, drafted with AI, that brings them back without discount-dumping.
+
+## Start here
+- [Start here: AI for small business beginners](https://mainstreetaibrief.com/start-here/)
+- [Where do I start? A 5-question quiz](https://mainstreetaibrief.com/start-quiz/)
+
+## By business type
+- [AI for trades & service businesses](https://mainstreetaibrief.com/trades-services.html): Practical AI for contractors, HVAC, plumbing, electrical, cleaning and landscaping owners: estimates, quote follow-ups and price notices, with prompts.
+- [AI for shops, restaurants and cafés](https://mainstreetaibrief.com/retail-food.html): Practical AI for shops, restaurants, cafés and bakeries: product descriptions, menu copy and answers to the questions customers ask every day, with prompts.
+- [AI for accountants, agencies and professional offices](https://mainstreetaibrief.com/professional-services.html): Practical AI for accountants, bookkeepers, agencies, consultants and law and insurance offices: client recaps and document requests, with copy-paste prompts.
+- [AI for salons, barbers, spas and studios](https://mainstreetaibrief.com/personal-care.html): Practical AI for salons, barbers, nail and lash techs, spas and trainers: cut no-shows, win back lapsed clients and write clear policies, with prompts.
+- [AI for any small business](https://mainstreetaibrief.com/all-businesses.html): AI use cases that work in any small business: replying to Google reviews, chasing unpaid invoices and writing job posts, with steps and copy-paste prompts.
