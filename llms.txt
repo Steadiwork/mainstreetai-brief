@@ -6,6 +6,7 @@
 - [Only 23% of small firms have a written AI policy](https://mainstreetaibrief.com/issues/ai-policy-gap.html)
 
 ## Use cases
+- [All use cases, by business type](https://mainstreetaibrief.com/use-cases/)
 - [Answer Google reviews in 5 minutes a day](https://mainstreetaibrief.com/use-cases/answer-google-reviews.html): A simple daily routine and a copy-paste prompt to reply to every Google review, good or bad, in your own voice, without sounding canned.
 - [Chase an unpaid invoice without sounding rude](https://mainstreetaibrief.com/use-cases/chase-unpaid-invoices.html): Write a firm, friendly three-step payment reminder sequence with AI, so late invoices get paid and the customer relationship survives.
 - [Write a job post that gets better applicants](https://mainstreetaibrief.com/use-cases/write-a-job-post.html): Turn what you actually need from a new hire into a clear, honest job post and a short screening question, with AI doing the first draft.
