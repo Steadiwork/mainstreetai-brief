@@ -1,6 +1,7 @@
 # Main Street AI Brief
 > Plain-English AI for small business owners: what works, what to avoid, and what it means for your shop.
 
+- [Post your holiday hours everywhere in 15 minutes](https://mainstreetaibrief.com/issues/holiday-hours-notice.html)
 - [Most small businesses use AI. Few feel confident with it.](https://mainstreetaibrief.com/issues/ai-confidence-gap.html)
 - [The barrier is expertise, not cost](https://mainstreetaibrief.com/issues/expertise-not-cost.html)
 - [Only 23% of small firms have a written AI policy](https://mainstreetaibrief.com/issues/ai-policy-gap.html)
@@ -10,6 +11,7 @@
 - [Answer Google reviews in 5 minutes a day](https://mainstreetaibrief.com/use-cases/answer-google-reviews.html): A simple daily routine and a copy-paste prompt to reply to every Google review, good or bad, in your own voice, without sounding canned.
 - [Chase an unpaid invoice without sounding rude](https://mainstreetaibrief.com/use-cases/chase-unpaid-invoices.html): Write a firm, friendly three-step payment reminder sequence with AI, so late invoices get paid and the customer relationship survives.
 - [Write a job post that gets better applicants](https://mainstreetaibrief.com/use-cases/write-a-job-post.html): Turn what you actually need from a new hire into a clear, honest job post and a short screening question, with AI doing the first draft.
+- [Holiday hours notice: sign, Google, email and social](https://mainstreetaibrief.com/use-cases/holiday-hours-notice.html): One list of your holiday hours, one copy-paste prompt, and matching notices for your door, website, Google, social and email, plus Google's special-hours steps.
 - [Turn job-site notes into a clear estimate customers understand](https://mainstreetaibrief.com/use-cases/job-notes-to-estimate.html): Turn walkthrough notes into a clean, itemized estimate with plain-English scope and exclusions. You set the prices; AI writes it up for you to check.
 - [Follow up on quotes that went quiet](https://mainstreetaibrief.com/use-cases/follow-up-on-quotes.html): A three-message follow-up plan for quotes with no reply, written once with AI and reused, so fairly priced jobs don't go to whoever followed up first.
 - [Tell customers about a price increase without losing them](https://mainstreetaibrief.com/use-cases/announce-a-price-increase.html): Use AI to draft a short, honest price-change notice and a phone script for regulars, so customers hear it from you early, with reasons and a date.
