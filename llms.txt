@@ -1,6 +1,7 @@
 # Main Street AI Brief
 > Plain-English AI for small business owners: what works, what to avoid, and what it means for your shop.
 
+- [Write a week of salon captions that get bookings](https://mainstreetaibrief.com/issues/salon-instagram-captions.html)
 - [Get extra work signed before you start it](https://mainstreetaibrief.com/issues/write-a-change-order.html)
 - [Post your holiday hours everywhere in 15 minutes](https://mainstreetaibrief.com/issues/holiday-hours-notice.html)
 - [Most small businesses use AI. Few feel confident with it.](https://mainstreetaibrief.com/issues/ai-confidence-gap.html)
@@ -23,6 +24,7 @@
 - [Get clients to send their documents on time](https://mainstreetaibrief.com/use-cases/get-client-documents-on-time.html): Build a plain-English document checklist and a friendly three-step reminder sequence with AI, so you spend less of busy season chasing paperwork.
 - [Cut no-shows with better reminders and a clear deposit policy](https://mainstreetaibrief.com/use-cases/cut-no-shows.html): Write a friendly cancellation and deposit policy plus a reminder sequence with AI, so clients know the rules before they book and fewer forget.
 - [Win back clients who haven't rebooked](https://mainstreetaibrief.com/use-cases/rebook-lapsed-clients.html): Find regulars who are past their usual rebooking window and send a short, personal note, drafted with AI, that brings them back without discount-dumping.
+- [Write Instagram captions for your salon that get bookings](https://mainstreetaibrief.com/use-cases/salon-instagram-captions.html): Turn photos of your own salon work into a week of Instagram captions with AI, each ending with one clear way to book. Free prompt and example.
 
 ## Start here
 - [Start here: AI for small business beginners](https://mainstreetaibrief.com/start-here/)
