@@ -3,19 +3,26 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet"><style>.mt{display:none;background:none;border:0;color:#fff;font-size:26px;line-height:1;cursor:pointer;padding:4px 6px}.small{font-size:14px;color:#5A6273;margin:10px 0 0}
 @media(max-width:600px){body{font-size:16px}header .wrap{padding:8px 16px;flex-wrap:wrap}.mt{display:block}
 nav{display:none;width:100%;padding:4px 0 8px}nav.open{display:block}nav a{display:block;margin:0;padding:9px 0;border-top:1px solid #2A3A5C}
-.bar{padding:8px 12px}#signup .note{display:none}#signup .gift{font-size:13px;margin:3px 0 0}#signup .gd{display:none!important}#signup .gm{display:inline!important}#signup .gift{font-size:13px!important}#signup .followit--follow-form-container .preview-heading{display:none!important}
-#signup .followit--follow-form-container .form-preview,#signup .followit--follow-form-container form{flex-direction:row!important;flex-wrap:nowrap!important;gap:8px!important}
-#signup .followit--follow-form-container .preview-input-field{width:auto!important;flex:1 1 auto!important;max-width:none!important}#signup .followit--follow-form-container .preview-submit-button{flex:0 0 auto!important}
-.hero{padding:28px 0 8px}.hero h1{font-size:32px;margin-bottom:8px}.card{padding:16px;margin:14px 0}.card h2{margin:0 0 6px;font-size:22px}h2{font-size:22px}}
-#signup .followit--follow-form-container,#signup .followit--follow-form-container *{font-family:'Source Sans 3',sans-serif!important}
-#signup .followit--follow-form-container .form-preview{display:flex!important;flex-direction:row!important;align-items:center!important;justify-content:center!important;gap:10px!important;flex-wrap:wrap!important;margin:0!important;padding:0!important;background:transparent!important;box-shadow:none!important;border:0!important;max-width:none!important;width:auto!important}
-#signup .followit--follow-form-container form{display:flex!important;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;margin:0!important}
-#signup .followit--follow-form-container .preview-heading,#signup .followit--follow-form-container .preview-heading h5{width:auto!important;margin:0!important;color:#14213D!important;font-size:16px!important;font-weight:700!important;text-transform:none!important}
-#signup .followit--follow-form-container .preview-input-field{margin:0!important;width:240px!important}
-#signup .followit--follow-form-container .preview-input-field input{height:34px!important;border:0!important;border-radius:4px!important;padding:0 10px!important;font-size:15px!important;color:#1B2433!important;background:#fff!important;text-align:left!important}
-#signup .followit--follow-form-container .preview-submit-button{margin:0!important;width:auto!important}
-#signup .followit--follow-form-container .preview-submit-button button{height:34px!important;width:auto!important;padding:0 16px!important;background:#14213D!important;color:#fff!important;border:0!important;border-radius:4px!important;font-weight:700!important;font-size:15px!important}
-#signup .followit--follow-form-container .powered-by-line{display:none!important}
+.bar{padding:8px 12px}#signup .note{display:none}#signup .gift{font-size:13px;margin:3px 0 0}#signup .gd{display:none!important}#signup .gm{display:inline!important}#signup .gift{font-size:13px!important}.hero{padding:28px 0 8px}.hero h1{font-size:32px;margin-bottom:8px}.card{padding:16px;margin:14px 0}.card h2{margin:0 0 6px;font-size:22px}h2{font-size:22px}}
+#signup .signup-form{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;margin:0}
+#signup .signup-heading{margin:0;color:#14213D;font-family:'Source Sans 3',sans-serif;font-size:16px;font-weight:700;text-transform:none;letter-spacing:0}
+#signup .signup-form input[type=email]{width:240px;height:34px;margin:0;border:0;border-radius:4px;padding:0 10px;font-family:'Source Sans 3',sans-serif;font-size:15px;font-weight:400;line-height:20px;color:#1B2433;background:#fff;text-align:left}
+#signup .signup-form input[type=email]::placeholder{color:#000;opacity:1}
+#signup .signup-form button{height:34px;margin:0;padding:0 16px;background:#14213D;color:#fff;border:0;border-radius:4px;font-family:'Source Sans 3',sans-serif;font-size:15px;font-weight:700;line-height:20px;cursor:pointer}
+.insf .signup-heading{display:none}
+.insf .signup-form{display:flex;align-items:center;justify-content:flex-start;gap:10px;flex-wrap:wrap;margin:0}
+.insf .signup-form input[type=email]{width:280px;max-width:100%;height:40px;margin:0;border:2px solid #14213D;border-radius:4px;padding:0 10px;font-family:'Source Sans 3',sans-serif;font-size:16px;font-weight:400;line-height:20px;color:#1B2433;background:#fff;text-align:left}
+.insf .signup-form input[type=email]::placeholder{color:#000;opacity:1}
+.insf .signup-form button{height:40px;margin:0;padding:0 18px;background:#14213D;color:#fff;border:0;border-radius:4px;font-family:'Source Sans 3',sans-serif;font-size:16px;font-weight:700;line-height:20px;cursor:pointer}
+@media(max-width:600px){
+#signup .signup-heading{display:none}
+#signup .signup-form{flex-wrap:nowrap}
+#signup .signup-form input[type=email]{flex:0 1 240px;max-width:240px;min-width:0}
+#signup .signup-form button{flex:0 0 auto}
+.insf .signup-form{flex-direction:column;align-items:stretch}
+.insf .signup-form input[type=email]{width:100%;max-width:none}
+.insf .signup-form button{width:100%}
+}
 #signup .note{font-size:12px;margin:4px 0 0;color:#14213D}#signup .gift{font-size:14px;margin:4px 0 0;color:#14213D;font-weight:700}#signup .gift a{color:#14213D;text-decoration:underline}#signup .gm{display:none}
 *{box-sizing:border-box}body{margin:0;background:#F7F5F0;color:#1B2433;font:17px/1.6 'Source Sans 3',sans-serif}
 h1,h2,h3,.logo{font-family:Oswald,sans-serif;color:#14213D;text-transform:uppercase;letter-spacing:.5px;line-height:1.2}
@@ -35,16 +42,11 @@ header{position:sticky;top:0;z-index:9;background:#14213D;color:#fff}header .wra
 footer{background:#14213D;color:#D6DAE3;margin-top:48px;padding:32px 0;font-size:15px}footer h3{color:#FF6B1A;font-size:16px}footer a{color:#fff}.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
 @media(max-width:700px){.cols{grid-template-columns:1fr}.hero h1{font-size:32px}nav a{margin:0 12px 0 0}.bar input{width:150px}}
 .ins{border-left-color:#14213D;background:#FFF8F2}.ins .kick{margin:0}.ins .insl{margin:4px 0 10px;font-size:18px}.ins .small{margin:10px 0 0}
-.insf .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f],.insf .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] *{font-family:'Source Sans 3',sans-serif!important}.insf .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-heading,.insf .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .powered-by-line{display:none!important}
-.insf .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview{display:flex!important;flex-direction:row!important;align-items:center!important;justify-content:flex-start!important;gap:10px!important;flex-wrap:wrap!important;margin:0!important;padding:0!important;background:transparent!important;box-shadow:none!important;border:0!important;max-width:none!important;width:auto!important}
-.insf .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] form{display:flex!important;margin:0!important}.insf .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field{margin:0!important;width:280px!important;max-width:100%!important}
-.insf .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field input{height:40px!important;border:2px solid #14213D!important;border-radius:4px!important;padding:0 10px!important;font-size:16px!important;color:#1B2433!important;background:#fff!important;text-align:left!important}
-.insf .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-submit-button{margin:0!important;width:auto!important}.insf .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-submit-button button{height:40px!important;width:auto!important;padding:0 18px!important;background:#14213D!important;color:#fff!important;border:0!important;border-radius:4px!important;font-weight:700!important;font-size:16px!important;line-height:1!important}
 .glance{display:grid;grid-template-columns:1fr 1fr 2fr 1.5fr;gap:0;margin:4px 0 12px;background:#fff;border:1px solid #E2DED5;border-radius:6px}.glance div{padding:8px 12px;border-left:1px solid #E2DED5}.glance div:first-child{border-left:0}
 .glance dt{font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:1px;font-size:12px;color:#5A6273}.glance dd{margin:2px 0 0;font-size:15px;line-height:1.4;font-weight:600;color:#14213D}.glance dd span{font-weight:400;color:#5A6273}
 .crumb{font-size:14px;color:#5A6273;margin:18px 0 0}.crumb a{color:#5A6273}.lead{font-size:19px;color:#14213D}.cta2{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:14px 0}.btn.o{background:#FF6B1A;color:#14213D}.ucc .gl{font-size:14px;color:#5A6273}
 @media(max-width:700px){.glance{grid-template-columns:1fr 1fr}.glance div{border-left:0;border-top:1px solid #E2DED5}.glance div:nth-child(-n+2){border-top:0}.glance div:nth-child(even){border-left:1px solid #E2DED5}.glance .w{grid-column:1/-1;border-left:0!important}}
-@media(max-width:600px){.insf .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field{width:100%!important;flex:1 1 100%!important}.insf .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-submit-button,.insf .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-submit-button button{width:100%!important}.ins .insl{font-size:17px}}
+@media(max-width:600px){.ins .insl{font-size:17px}}
 body{font-size:18px;line-height:1.7}
 h1,h2,h3{text-transform:none;letter-spacing:0}
 h1{font-size:40px;margin:0 0 16px}
@@ -169,98 +171,12 @@ h2{margin-top:48px}
 }
 </style></head><body>
 <header><div class="wrap"><a class="logo" href="/"><picture><source media="(max-width: 600px)" srcset="/assets/logo-wide.png 1x, /assets/logo-wide@2x.png 2x"><img src="/assets/header-lockup.png" srcset="/assets/header-lockup.png 1x, /assets/header-lockup@2x.png 2x" alt="Main Street AI Brief - Daily AI tips for small business owners" width="369" height="56"></picture></a><button class="mt" aria-label="Menu" aria-expanded="false" onclick="var n=document.getElementById('nav');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">&#9776;</button><nav id="nav"><a href="/">Home</a><a href="/start-here/">Start here</a><a href="/use-cases/">Use cases</a><a href="/start-quiz/">Quiz</a><a href="/archive.html">Archive</a><a href="/about.html">About</a></nav></div></header>
-<div class="bar" id="signup"><style>
-    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview {
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: center !important;
-  margin-top: 30px !important;
-  padding: clamp(17px, 5%, 40px) clamp(17px, 7%, 50px) !important;
-  max-width: none !important;
-  border-radius: 6px !important;
-  box-shadow: 0 5px 25px rgba(34, 60, 47, 0.25) !important;
-}
-.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview,
-.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview *{
-  box-sizing: border-box !important;
-}
-.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-heading {
-  width: 100% !important;
-}
-.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-heading h5{
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-}
-.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field {
-  margin-top: 20px !important;
-  width: 100% !important;
-}
-.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field input {
-  width: 100% !important;
-  height: 40px !important;
-  border-radius: 6px !important;
-  border: 2px solid #e9e8e8 !important;
-  background-color: #fff;
-  outline: none !important;
-}
-.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field input {
-  color: #000000 !important;
-  font-family: "Montserrat" !important;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 20px;
-  text-align: center;
-}
-.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field input::placeholder {
-  color: #000000 !important;
-  opacity: 1 !important;
-}
-
-.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field input:-ms-input-placeholder {
-  color: #000000 !important;
-}
-
-.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field input::-ms-input-placeholder {
-  color: #000000 !important;
-}
-.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-submit-button {
-  margin-top: 10px !important;
-  width: 100% !important;
-}
-.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-submit-button button {
-  width: 100% !important;
-  height: 40px !important;
-  border: 0 !important;
-  border-radius: 6px !important;
-  line-height: 0px !important;
-}
-.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-submit-button button:hover {
-  cursor: pointer !important;
-}
-.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .powered-by-line {
-  color: #231f20 !important;
-  font-family: "Montserrat" !important;
-  font-size: 13px !important;
-  font-weight: 400 !important;
-  line-height: 25px !important;
-  text-align: center !important;
-  text-decoration: none !important;
-  display: flex !important;
-  width: 100% !important;
-  justify-content: center !important;
-  align-items: center !important;
-  margin-top: 10px !important;
-}
-.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .powered-by-line img {
-  margin-left: 10px !important;
-  height: 1.13em !important;
-  max-height: 1.13em !important;
-}
-
-  </style>
-  <div class="followit--follow-form-container" attr-a attr-b attr-c attr-d attr-e attr-f>
-    <form data-v-f93f6730="" action="https://api.follow.it/subscription-form/WGtweDd1Mnlram1zWjFVNFlGNFFqREpQTzMrR2hWR1VpektCT2swc3FRVmkrR2ZuYys4UytXWXZVYi9OYTFuMmRnQlBzYm44blU1cXFRL1ZLWVpNOTBocTdoT0xVNndQamJobHJqQWJQa2JNT3NBeXB2ZXlzN2VIazdVL1Y0RzB8UVFpYWNjbEZ1ZGg1NmFRSEsvcmEvQlc2S3FYVVhjRldDRmxKMlN1VGdlST0=/8" method="post"><div data-v-f93f6730="" class="form-preview" style="background-color: rgb(255, 255, 255); position: relative; border-style: solid; border-width: 1px; border-color: rgb(204, 204, 204);"><div data-v-f93f6730="" class="preview-heading"><h5 data-v-f93f6730="" style="font-family: Arial; font-weight: bold; color: rgb(0, 0, 0); font-size: 16px; text-align: center; text-transform: none !important;">Get the free weekday brief</h5></div><div data-v-f93f6730="" class="preview-input-field"><input data-v-f93f6730="" type="email" name="email" required="" placeholder="Enter your email" spellcheck="false" style="font-family: Arial; font-weight: normal; color: rgb(0, 0, 0); font-size: 14px; text-align: center; background-color: rgb(255, 255, 255); text-transform: none !important;"></div><div data-v-f93f6730="" class="preview-submit-button"><button data-v-f93f6730="" type="submit" style="font-family: Arial; font-weight: bold; color: rgb(255, 255, 255); font-size: 16px; text-align: center; background-color: rgb(0, 0, 0); text-transform: none !important;">Subscribe</button></div></div></form><a href="https://follow.it" class="powered-by-line">Powered by <img src="https://follow.it/images/colored-logo.svg" alt="follow.it" height="17px"/></a>
-  </div>
+<div class="bar" id="signup"><form class="signup-form embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/mainstreetaibrief" method="post">
+    <p class="signup-heading">Get the free weekday brief</p>
+    <input type="email" name="email" required placeholder="Enter your email" spellcheck="false" autocomplete="email">
+    <input type="hidden" name="embed" value="1">
+    <button type="submit">Subscribe</button>
+  </form>
 <p class="gift"><span class="gd">Subscribe and get the free AI Readiness Scorecard. <a href="https://steadiwork.gumroad.com/l/ai-readiness-scorecard" rel="noopener">Get the scorecard &rarr;</a></span><a class="gm" href="https://steadiwork.gumroad.com/l/ai-readiness-scorecard" rel="noopener">Free gift: AI Readiness Scorecard &rarr;</a></p><p class="note">Confirm via email, then one short issue each weekday. Unsubscribe anytime.</p></div>
 <main class="wrap"><div class="issue"><img class="heroimg" src="/assets/img/photos/cafe-owner-portrait.jpg" srcset="/assets/img/photos/cafe-owner-portrait-800.jpg 800w, /assets/img/photos/cafe-owner-portrait.jpg 1600w" sizes="(max-width:700px) 100vw, 680px" width="1600" height="900" alt="Cafe owner standing inside a coffee shop" fetchpriority="high"><p class="kick">All businesses · Customer service · Oct 19, 2026</p><h1>Post your holiday hours everywhere in 15 minutes</h1><p class="opener">Thanksgiving is Thursday, November 26, and customers will check your hours before they drive over, so today you&#x27;ll write your holiday hours once and post them everywhere.</p><div class="callout"><p class="kick">Do this today</p><h2>Write one holiday hours notice and post it on every channel</h2><p class="metaline">Setup about 15 minutes · Saves most of the rewriting per channel (rough estimate)</p><ol class="steps"><li>List your real hours for every day that changes between Thanksgiving and New Year&#x27;s Day, plus how customers can reach you for anything urgent.</li><li>Paste that list into your AI assistant with the prompt below.</li><li>Check every date, day of the week and time in the draft against your list before you copy it anywhere.</li><li>On Google, add the changed days as Special hours so your regular hours stay the same: Edit profile, then Hours, then Edit next to Special hours.</li><li>Put up the door sign, update your website, post the social version and send the email to your regular customers.</li></ol><p><b>Copy-paste prompt</b> <button class="copy" data-t="pr">Copy prompt</button></p><pre class="prompt" id="pr">You help me tell customers about holiday hours for my [type of business] in [town].
 Here are my real hours. Use only these, exactly as written:
@@ -276,9 +192,12 @@ Write five versions with exactly the same facts:
 4) A short email to regular customers, with a subject line.
 5) A voicemail or auto-reply message under 40 words.
 Write the day of the week next to every date. Do not add hours, dates, sales or offers I haven&#x27;t listed. If something is missing, write [MISSING] instead of guessing.</pre><p class="privacy"><b>Privacy:</b> You only need your hours and a public phone or email; don&#x27;t paste customer lists, staff schedules or anyone&#x27;s personal details.</p><div class="example"><p class="lbl">Example output (illustrative, not real data)</p><p style="margin:4px 0">Door sign: Holiday hours at Example Hardware Co. Thursday, Nov 26: Closed. Friday, Nov 27: 9 am to 3 pm. Regular hours Saturday, Nov 28. Thank you.</p><p style="margin:4px 0">Website line: Closed Thanksgiving Day (Thursday, Nov 26). Open 9 am to 3 pm Friday, Nov 27.</p><div class="exw"><table class="ex"><tr><th>Day</th><th>Google Special hours</th></tr><tr><td>Thu, Nov 26</td><td>Closed</td></tr><tr><td>Fri, Nov 27</td><td>9:00 AM to 3:00 PM</td></tr><tr><td>Thu, Dec 24</td><td>9:00 AM to 1:00 PM</td></tr><tr><td>Fri, Dec 25</td><td>Closed</td></tr></table></div></div><p class="walk"><a href="/use-cases/holiday-hours-notice.html"><b>Full walkthrough &rarr;</b></a> <span class="small">steps, tool note and watch-outs</span></p></div><aside class="card ins" aria-label="Free weekday brief"><p class="kick">The free weekday brief</p><p class="insl"><b>Get one task like this every weekday, with a copy-paste prompt.</b></p><div class="insf">
-  <div class="followit--follow-form-container" attr-a attr-b attr-c attr-d attr-e attr-f>
-    <form data-v-f93f6730="" action="https://api.follow.it/subscription-form/WGtweDd1Mnlram1zWjFVNFlGNFFqREpQTzMrR2hWR1VpektCT2swc3FRVmkrR2ZuYys4UytXWXZVYi9OYTFuMmRnQlBzYm44blU1cXFRL1ZLWVpNOTBocTdoT0xVNndQamJobHJqQWJQa2JNT3NBeXB2ZXlzN2VIazdVL1Y0RzB8UVFpYWNjbEZ1ZGg1NmFRSEsvcmEvQlc2S3FYVVhjRldDRmxKMlN1VGdlST0=/8" method="post"><div data-v-f93f6730="" class="form-preview" style="background-color: rgb(255, 255, 255); position: relative; border-style: solid; border-width: 1px; border-color: rgb(204, 204, 204);"><div data-v-f93f6730="" class="preview-heading"><h5 data-v-f93f6730="" style="font-family: Arial; font-weight: bold; color: rgb(0, 0, 0); font-size: 16px; text-align: center; text-transform: none !important;">Get the free weekday brief</h5></div><div data-v-f93f6730="" class="preview-input-field"><input data-v-f93f6730="" type="email" name="email" required="" placeholder="Enter your email" spellcheck="false" style="font-family: Arial; font-weight: normal; color: rgb(0, 0, 0); font-size: 14px; text-align: center; background-color: rgb(255, 255, 255); text-transform: none !important;"></div><div data-v-f93f6730="" class="preview-submit-button"><button data-v-f93f6730="" type="submit" style="font-family: Arial; font-weight: bold; color: rgb(255, 255, 255); font-size: 16px; text-align: center; background-color: rgb(0, 0, 0); text-transform: none !important;">Subscribe</button></div></div></form><a href="https://follow.it" class="powered-by-line">Powered by <img src="https://follow.it/images/colored-logo.svg" alt="follow.it" height="17px"/></a>
-  </div>
+<form class="signup-form embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/mainstreetaibrief" method="post">
+    <p class="signup-heading">Get the free weekday brief</p>
+    <input type="email" name="email" required placeholder="Enter your email" spellcheck="false" autocomplete="email">
+    <input type="hidden" name="embed" value="1">
+    <button type="submit">Subscribe</button>
+  </form>
 </div><p class="small">Also free: <a href="https://steadiwork.gumroad.com/l/ai-readiness-scorecard?utm_source=mainstreetaibrief&amp;utm_medium=web&amp;utm_campaign=inline-holiday-hours-notice" rel="noopener">the AI Readiness Scorecard</a>, 20 questions to see where AI fits in your business.</p></aside><div class="card"><p class="kick">Worth knowing</p><ul class="wk"><li>Pax8, which sells AI and cloud software through IT providers, surveyed 1,150 leaders at companies with 5 to 499 employees in the U.S., U.K., Germany and Sweden for its Q3 2026 SMB AI Pulse. 55% of decision-makers said they personally spend three or more hours a week reviewing, editing or fact-checking AI-generated work, and 7% spend ten hours or more.<br><span class="sowhat"><b>So what:</b> Checking AI&#x27;s work is normal. For a notice like today&#x27;s, the check is quick: compare every date and time with your own list.</span><a class="srccard" href="https://www.pax8.com/en-us/news-post/pax8-research-finds-small-businesses-are-building-ai-faster-than-they-can-govern-it/" rel="noopener" title="Pax8, Q3 2026 SMB AI Pulse Report (Oct 12, 2026)"><span class="pub">Pax8</span><span class="hl">Q3 2026 SMB AI Pulse Report</span><span class="meta">Oct 12, 2026 · pax8.com ↗</span></a></li><li>The SBE Council, a small-business advocacy group, surveyed 516 owners with 2 to 99 employees (Sept 11 to 19, 2026). Asked which marketing worked best for finding new customers, 28% named social media, 22% word of mouth and 5% email. 36% said customer spending fell over the past six months, and 28% saw customers seeking discounts or promotions.<br><span class="sowhat"><b>So what:</b> Owners in this survey ranked social media first, so don&#x27;t skip the social version of today&#x27;s notice.</span><a class="srccard" href="https://sbecouncil.org/2026/10/08/new-small-business-check-up-survey-main-street-businesses-are-powering-through-2026/" rel="noopener" title="SBE Council, Small Business Check Up Survey (Oct 8, 2026)"><span class="pub">SBE Council</span><span class="hl">Small Business Check Up Survey</span><span class="meta">Oct 8, 2026 · sbecouncil.org ↗</span></a></li></ul></div><div class="card close"><h2>Before you go</h2><p>Questions or a task you want covered? Email us at <a href="mailto:hello@mainstreetaibrief.com">hello@mainstreetaibrief.com</a>.</p><p>The Prompt Library has a holiday-hours prompt plus 115 others for the posts, emails and replies you write every week. <a href="https://steadiwork.gumroad.com/l/small-business-prompt-library?utm_source=mainstreetaibrief&amp;utm_medium=web&amp;utm_campaign=holiday-hours-notice" rel="noopener">Small-Business Prompt Library ($19) &rarr;</a></p><p>Know an owner who'd use this? Forward it.</p></div><p><a href="/archive.html">← All issues</a></p></div><script>document.querySelectorAll(".copy").forEach(function(b){b.addEventListener("click",function(){var t=document.getElementById(b.dataset.t).innerText;navigator.clipboard&&navigator.clipboard.writeText(t).then(function(){b.textContent="Copied";setTimeout(function(){b.textContent="Copy prompt"},1500)})})})</script></main>
 <footer><div class="wrap cols"><div><h3>About</h3><p>Plain-English AI for small business owners: what works, what to avoid, and what it means for your shop.</p><p>Educational content only, not legal, tax or financial advice. Verify any AI output before you use it with customers.</p><p><a href="/about.html#photo-credits">Photos via Pexels</a></p></div>
 <div><h3>Explore</h3><p><a href="/start-here/">Start here</a><br><a href="/start-quiz/">Where do I start? (quiz)</a><br><a href="/use-cases/">AI use cases by job</a><br><a href="/trades-services.html">Trades &amp; Services</a><br><a href="/retail-food.html">Retail &amp; Food</a><br><a href="/professional-services.html">Professional services</a><br><a href="/personal-care.html">Personal care</a><br><a href="/all-businesses.html">All businesses</a><br><a href="/archive.html">Archive</a><br><a href="/about.html">About</a></p></div>
