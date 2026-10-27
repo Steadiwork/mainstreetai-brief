@@ -1,6 +1,7 @@
 # Main Street AI Brief
 > Plain-English AI for small business owners: what works, what to avoid, and what it means for your shop.
 
+- [Save your Local Services Ads history before the move](https://mainstreetaibrief.com/issues/local-services-ads-move-checklist.html)
 - [Ask every customer for a Google review in 15 minutes](https://mainstreetaibrief.com/issues/ask-for-google-reviews.html)
 - [Write a week of salon captions that get bookings](https://mainstreetaibrief.com/issues/salon-instagram-captions.html)
 - [Get extra work signed before you start it](https://mainstreetaibrief.com/issues/write-a-change-order.html)
@@ -20,6 +21,7 @@
 - [Follow up on quotes that went quiet](https://mainstreetaibrief.com/use-cases/follow-up-on-quotes.html): A three-message follow-up plan for quotes with no reply, written once with AI and reused, so fairly priced jobs don't go to whoever followed up first.
 - [Tell customers about a price increase without losing them](https://mainstreetaibrief.com/use-cases/announce-a-price-increase.html): Use AI to draft a short, honest price-change notice and a phone script for regulars, so customers hear it from you early, with reasons and a date.
 - [Write a change order for extra work, signed first](https://mainstreetaibrief.com/use-cases/write-a-change-order.html): Turn a customer's 'can you also...' into a one-page change order with scope, price and schedule, signed before extra work starts. You set the price.
+- [Local Services Ads to Google Ads: what to save first](https://mainstreetaibrief.com/use-cases/local-services-ads-move-checklist.html): Google is moving Local Services Ads into Google Ads, and old performance reports won't carry over. Save them, record your settings, and recheck after.
 - [Write product descriptions for 50 items in an afternoon](https://mainstreetaibrief.com/use-cases/write-product-descriptions.html): A batch method for writing accurate, on-brand product descriptions with AI from your own spec notes, in batches of 10, without the generic filler.
 - [Answer the same customer questions once: hours, orders, allergens](https://mainstreetaibrief.com/use-cases/answer-repeat-customer-questions.html): Turn the 10 questions customers ask every day into one accurate FAQ and a set of saved replies, so you stop typing the same answers in DMs and on the phone.
 - [Turn meeting notes into a client recap email in 5 minutes](https://mainstreetaibrief.com/use-cases/meeting-notes-to-client-recap.html): Send a clear recap of decisions, next steps and owners within the hour after every client meeting, drafted by AI from your notes and checked by you.
