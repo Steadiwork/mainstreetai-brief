@@ -1,0 +1,28 @@
+---
+description: Voice for Main Street AI Brief site copy. Follow on any copy edit.
+alwaysApply: true
+---
+
+# Voice for Main Street AI Brief site copy
+
+Owner decision, 2026-10-28. Follow this on any copy edit to the site.
+
+## Tone
+
+Make it fun and engaging to read. Light, dry humor where it fits: a wry aside, a relatable small-business-owner moment, a playful turn of phrase. One or two witty touches per page at most, never at the expense of clarity or facts.
+
+No humor on serious topics (legal, layoffs, data breaches, money trouble). Never joke about customers, employees or named companies.
+
+Conversational, short sentences, varied rhythm. No stacked puns, no emoji, no forced memes.
+
+## Facts stay exact
+
+Keep the short answer, at-a-glance strip, prices, steps, prompts, watch-outs and sources plain and exact. Facts, numbers and quotes stay exactly as sourced; never invent claims.
+
+## Name and framing
+
+Always use the full name "Main Street AI Brief". Never say AI or bots run the business.
+
+## Generated pages
+
+Most pages here are generated output from a separate build script, so text edits to generated issue and use-case HTML (`issues/` and `use-cases/`) can be overwritten by the next daily publish. Flag that in the PR description whenever a copy change touches generated pages.
