@@ -1,0 +1,196 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/assets/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="/assets/icon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="/assets/icon-192.png"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<title>Turn call notes into a client proposal in 30 minutes | Main Street AI Brief</title><meta name="description" content="Today&#x27;s prompt turns the notes from your last discovery call into a one-page proposal, ideally before the client forgets why they called."><link rel="canonical" href="https://mainstreetaibrief.com/issues/proposal-from-call-notes.html"><meta property="og:title" content="Turn call notes into a client proposal in 30 minutes | Main Street AI Brief"><meta property="og:description" content="Today&#x27;s prompt turns the notes from your last discovery call into a one-page proposal, ideally before the client forgets why they called."><meta property="og:url" content="https://mainstreetaibrief.com/issues/proposal-from-call-notes.html"><meta property="og:type" content="website"><meta property="og:image" content="https://mainstreetaibrief.com/assets/og-default.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Main Street AI Brief. Daily AI tips for small business owners."><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://mainstreetaibrief.com/assets/og-default.png"><link rel="alternate" type="application/rss+xml" title="Main Street AI Brief" href="https://mainstreetaibrief.com/feed.xml"><meta name="follow.it-verification-code" content="vbY8gZ2STncXblszy9jg"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet"><style>.mt{display:none;background:none;border:0;color:#fff;font-size:26px;line-height:1;cursor:pointer;padding:4px 6px}.small{font-size:14px;color:#5A6273;margin:10px 0 0}
+@media(max-width:600px){body{font-size:16px}header .wrap{padding:8px 16px;flex-wrap:wrap}.mt{display:block}
+nav{display:none;width:100%;padding:4px 0 8px}nav.open{display:block}nav a{display:block;margin:0;padding:9px 0;border-top:1px solid #2A3A5C}
+.bar{padding:8px 12px}#signup .note{display:none}#signup .gift{font-size:13px;margin:3px 0 0}#signup .gd{display:none!important}#signup .gm{display:inline!important}#signup .gift{font-size:13px!important}.hero{padding:28px 0 8px}.hero h1{font-size:32px;margin-bottom:8px}.card{padding:16px;margin:14px 0}.card h2{margin:0 0 6px;font-size:22px}h2{font-size:22px}}
+#signup .signup-form{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;margin:0}
+#signup .signup-heading{margin:0;color:#14213D;font-family:'Source Sans 3',sans-serif;font-size:16px;font-weight:700;text-transform:none;letter-spacing:0}
+#signup .signup-form input[type=email]{width:240px;height:34px;margin:0;border:0;border-radius:4px;padding:0 10px;font-family:'Source Sans 3',sans-serif;font-size:15px;font-weight:400;line-height:20px;color:#1B2433;background:#fff;text-align:left}
+#signup .signup-form input[type=email]::placeholder{color:#000;opacity:1}
+#signup .signup-form button{height:34px;margin:0;padding:0 16px;background:#14213D;color:#fff;border:0;border-radius:4px;font-family:'Source Sans 3',sans-serif;font-size:15px;font-weight:700;line-height:20px;cursor:pointer}
+.insf .signup-heading{display:none}
+.insf .signup-form{display:flex;align-items:center;justify-content:flex-start;gap:10px;flex-wrap:wrap;margin:0}
+.insf .signup-form input[type=email]{width:280px;max-width:100%;height:40px;margin:0;border:2px solid #14213D;border-radius:4px;padding:0 10px;font-family:'Source Sans 3',sans-serif;font-size:16px;font-weight:400;line-height:20px;color:#1B2433;background:#fff;text-align:left}
+.insf .signup-form input[type=email]::placeholder{color:#000;opacity:1}
+.insf .signup-form button{height:40px;margin:0;padding:0 18px;background:#14213D;color:#fff;border:0;border-radius:4px;font-family:'Source Sans 3',sans-serif;font-size:16px;font-weight:700;line-height:20px;cursor:pointer}
+@media(max-width:600px){
+#signup .signup-heading{display:none}
+#signup .signup-form{flex-wrap:nowrap}
+#signup .signup-form input[type=email]{flex:0 1 240px;max-width:240px;min-width:0}
+#signup .signup-form button{flex:0 0 auto}
+.insf .signup-form{flex-direction:column;align-items:stretch}
+.insf .signup-form input[type=email]{width:100%;max-width:none}
+.insf .signup-form button{width:100%}
+}
+#signup .note{font-size:12px;margin:4px 0 0;color:#14213D}#signup .gift{font-size:14px;margin:4px 0 0;color:#14213D;font-weight:700}#signup .gift a{color:#14213D;text-decoration:underline}#signup .gm{display:none}
+*{box-sizing:border-box}body{margin:0;background:#F7F5F0;color:#1B2433;font:17px/1.6 'Source Sans 3',sans-serif}
+h1,h2,h3,.logo{font-family:Oswald,sans-serif;color:#14213D;text-transform:uppercase;letter-spacing:.5px;line-height:1.2}
+a{color:#C2410C}.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;z-index:9;background:#14213D;color:#fff}header .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:8px 20px;flex-wrap:wrap}
+.logo{display:flex;align-items:center;flex:0 0 auto;line-height:0;text-decoration:none}.logo img{display:block;height:56px;width:369px}@media(max-width:860px){.logo img{width:min(369px,max(264px,calc(100vw - 481px)));height:auto;aspect-ratio:1555/236}}@media(max-width:700px){.logo img{width:min(369px,max(264px,calc(100vw - 457px)));height:auto}}@media(max-width:600px){.logo img{width:163px;height:44px;aspect-ratio:207/56}}nav a{color:#fff;text-decoration:none;margin-left:16px;font-weight:600}
+.bar{background:#FF6B1A;color:#14213D;text-align:center;padding:8px;font-weight:600}.bar input{padding:6px;border:0;border-radius:4px;width:200px}.bar button,.btn{background:#14213D;color:#fff;border:0;border-radius:4px;padding:7px 14px;font-weight:700;cursor:pointer;text-decoration:none;display:inline-block}
+.hero{padding:48px 0 24px}.hero h1{font-size:44px;margin:0 0 10px}.card{background:#fff;border:1px solid #E2DED5;border-left:5px solid #FF6B1A;border-radius:6px;padding:20px;margin:16px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}.tag{display:inline-block;background:#14213D;color:#fff;font-size:12px;padding:2px 8px;border-radius:3px;margin-right:4px}
+.sowhat{background:#FFF1E8;padding:8px 10px;border-radius:4px}
+.issue{max-width:760px;margin:0 auto}.wk .sowhat{display:block;margin:6px 0 2px}.ex{border-collapse:collapse;width:100%;font-size:15px;margin:2px 0 8px}.ex th,.ex td{border:1px solid #E2DED5;padding:4px 6px;text-align:left;vertical-align:top}.ex th{background:#14213D;color:#fff;font-weight:600}.exw{overflow-x:auto}@media(max-width:600px){.ex{font-size:13px}.ex th,.ex td{padding:3px 4px}}.opener{font-size:19px;color:#14213D;margin:4px 0 8px}.kick{font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:1px;color:#C2410C;font-size:14px;margin:0 0 2px}
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 10px}.pill{background:#14213D;color:#fff;border-radius:3px;padding:2px 9px;font-size:14px;font-weight:600}.pill.o{background:#FF6B1A;color:#14213D}
+.steps{padding-left:22px}.steps li{margin:4px 0}.prompt{white-space:pre-wrap;background:#F7F5F0;border-left:4px solid #14213D;padding:10px 12px;margin:8px 0 4px;font:15px/1.5 'Source Sans 3',sans-serif;overflow-wrap:anywhere}
+.copy{background:#fff;color:#14213D;border:2px solid #14213D;border-radius:4px;padding:3px 10px;font-weight:700;cursor:pointer;font-size:14px}.privacy{background:#FFF1E8;border-radius:4px;padding:8px 10px;font-size:15px}
+.example{border:2px dashed #B9B3A6;border-radius:6px;padding:10px 12px;margin:10px 0 0;background:#FDFCF9}.example .lbl{font-family:Oswald,sans-serif;text-transform:uppercase;font-size:13px;letter-spacing:1px;color:#5A6273;margin:0 0 4px}.example pre{white-space:pre-wrap;margin:0;font:15px/1.5 'Source Sans 3',sans-serif}
+.card.tool{border-left-color:#14213D}.wk{margin:0;padding-left:20px}.wk li{margin:0 0 12px}.close{background:#14213D;color:#fff;border-left-color:#FF6B1A}.close h2{color:#fff}.close a{color:#FFB98A}.uc{display:flex;flex-wrap:wrap;gap:8px}.uc a{border:2px solid #14213D;color:#14213D;padding:6px 12px;border-radius:20px;text-decoration:none;font-weight:600}
+footer{background:#14213D;color:#D6DAE3;margin-top:48px;padding:32px 0;font-size:15px}footer h3{color:#FF6B1A;font-size:16px}footer a{color:#fff}.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+@media(max-width:700px){.cols{grid-template-columns:1fr}.hero h1{font-size:32px}nav a{margin:0 12px 0 0}.bar input{width:150px}}
+.ins{border-left-color:#14213D;background:#FFF8F2}.ins .kick{margin:0}.ins .insl{margin:4px 0 10px;font-size:18px}.ins .small{margin:10px 0 0}
+.glance{display:grid;grid-template-columns:1fr 1fr 2fr 1.5fr;gap:0;margin:4px 0 12px;background:#fff;border:1px solid #E2DED5;border-radius:6px}.glance div{padding:8px 12px;border-left:1px solid #E2DED5}.glance div:first-child{border-left:0}
+.glance dt{font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:1px;font-size:12px;color:#5A6273}.glance dd{margin:2px 0 0;font-size:15px;line-height:1.4;font-weight:600;color:#14213D}.glance dd span{font-weight:400;color:#5A6273}
+.crumb{font-size:14px;color:#5A6273;margin:18px 0 0}.crumb a{color:#5A6273}.lead{font-size:19px;color:#14213D}.cta2{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:14px 0}.btn.o{background:#FF6B1A;color:#14213D}.ucc .gl{font-size:14px;color:#5A6273}
+@media(max-width:700px){.glance{grid-template-columns:1fr 1fr}.glance div{border-left:0;border-top:1px solid #E2DED5}.glance div:nth-child(-n+2){border-top:0}.glance div:nth-child(even){border-left:1px solid #E2DED5}.glance .w{grid-column:1/-1;border-left:0!important}}
+@media(max-width:600px){.ins .insl{font-size:17px}}
+body{font-size:18px;line-height:1.7}
+h1,h2,h3{text-transform:none;letter-spacing:0}
+h1{font-size:40px;margin:0 0 16px}
+h2{font-size:26px;margin:72px 0 16px}
+h3{font-size:20px;margin:20px 0 8px}
+.hero h1{font-size:40px}
+body.home h1{text-transform:uppercase;letter-spacing:.5px}
+p.kick,.lbl,h3.lbl,.example .lbl,.qprog{font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:1px;font-size:13px;color:#C2410C;margin:0 0 8px;font-weight:500}
+.lbl,h3.lbl,.example .lbl{color:#5A6273}
+h2.kick{text-transform:none;letter-spacing:0;font-size:26px;color:#14213D;margin:0 0 12px}
+.wrap{max-width:1000px;padding-left:24px;padding-right:24px}
+.issue{max-width:680px}
+main.wrap{padding-top:8px;padding-bottom:72px}
+.lead,.opener{font-size:20px;line-height:1.5;color:#14213D;margin:0 0 16px}
+.sched{color:#5A6273;font-size:16px;margin:8px 0 0}
+.homehero{display:grid;grid-template-columns:1fr;gap:24px;align-items:center;padding:28px 0 8px}
+.homehero .heroimg{margin:0}
+.cta2{gap:16px 20px;margin:20px 0 8px}
+.btn{font-family:Oswald,sans-serif;font-weight:500;letter-spacing:.3px;padding:12px 18px;border-radius:6px}
+nav a{font-family:Oswald,sans-serif;font-weight:500;letter-spacing:.4px;font-size:16px}
+.card{background:transparent;border:0;border-left:0;border-radius:0;padding:0;margin:0;color:#1B2433}
+.issue > .card:not(.ucc),.ucp > .card:not(.ucc){margin:64px 0}
+.card h2,.card h3{margin-top:0}
+.close,.close h2{background:none;color:#14213D}
+.close a{color:#C2410C}
+.ins{background:none;border:0;padding:0}
+.sowhat{background:none;padding:0;border-radius:0}
+p.sowhat{background:#FFF8F2;padding:16px 20px;border-radius:10px;margin:24px 0}
+.wk .sowhat,li .sowhat{background:none;padding:0;margin:8px 0}
+.callout,.ans{background:#FFF8F2;border:0;border-radius:10px;padding:20px;margin:8px 0 28px}
+.ans p{margin:0}
+.callout h2{margin:0 0 12px}
+.privacy{background:none;padding:0;border-radius:0;font-size:18px}
+.prompt{padding:16px;margin:12px 0}
+.example{padding:16px;margin:16px 0 0}
+.metaline{color:#5A6273;margin:4px 0 16px}
+.forline{margin:4px 0 8px}
+.glance{display:flex;flex-wrap:wrap;gap:16px 28px;background:none;border:0;margin:20px 0 8px}
+.glance div{border:0;padding:0;background:none}
+.byl{font-size:15px;color:#5A6273;margin:12px 0}
+.crumb{font-size:14px;color:#5A6273;margin:20px 0 16px}
+.crumb a{color:#5A6273}
+.heroimg,.cardimg,.tileimg{width:100%;height:auto;display:block;object-fit:cover;border-radius:10px;background:#E7E2D8}
+.heroimg{aspect-ratio:3/2;margin:0 0 32px}
+.heroimg.illus,.cardimg.illus,.tileimg{aspect-ratio:4/3}
+.heroimg.street{aspect-ratio:16/9;margin:0}
+.cardimg{aspect-ratio:3/2;margin:0 0 12px}
+a.card{display:block;text-decoration:none;color:inherit}
+a.card h3,a.card h3 a,.ucc h3 a,h3.tn a{color:#14213D;text-decoration:none}
+a.card:hover h3,.srccard:hover .hl{text-decoration:underline}
+a.card:focus-visible,.srccard:focus-visible,.tile:focus-visible,.btn:focus-visible,a:focus-visible{outline:3px solid #14213D;outline-offset:3px}
+.grid{grid-template-columns:1fr;gap:32px}
+.ucc h3{margin:4px 0 8px;font-size:20px;line-height:1.25}
+.ucc p{margin:0 0 8px}
+.card .small{margin:6px 0 0}
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.tile{display:block;text-decoration:none;color:#14213D}
+.tile .label{display:block;margin-top:8px;font-family:Oswald,sans-serif;font-size:16px;line-height:1.25}
+.tile:hover .label{color:#C2410C}
+.prod{display:flex;justify-content:space-between;gap:16px;align-items:center;padding:20px 0;border-top:1px solid #E2DED5}
+.prod:last-child{border-bottom:1px solid #E2DED5}
+.prod h3{margin:0 0 4px}
+.prod p{margin:0}
+.srcgrid{display:grid;grid-template-columns:1fr;gap:12px;margin:12px 0 0}
+.srccard{display:block;background:#fff;border:1px solid #E2DED5;border-radius:8px;padding:14px 16px;text-decoration:none;color:inherit;margin-top:10px}
+.srcgrid .srccard{margin-top:0}
+.srccard .pub{display:block;font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:1px;color:#C2410C;font-size:12px}
+.srccard .hl{display:block;font-size:17px;font-weight:700;color:#14213D;margin:4px 0}
+.src .srccard .hl{font-size:16px}
+.srccard .meta{display:block;font-size:13px;color:#5A6273}
+.ucf{display:flex;flex-wrap:wrap;gap:8px 18px;margin:8px 0 28px}
+.ucf button{background:none;border:0;border-bottom:2px solid transparent;border-radius:0;padding:6px 0;font-family:Oswald,sans-serif;letter-spacing:.4px;font-size:16px;color:#14213D;cursor:pointer}
+.ucf button[aria-pressed=true]{background:none;color:#C2410C;border-bottom-color:#FF6B1A}
+.hubs{display:flex;flex-wrap:wrap;gap:8px 18px;margin:8px 0 16px}
+.hubs a{border:0;padding:0;border-radius:0;color:#C2410C;font-weight:700;text-decoration:underline}
+.plh{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:20px 0 0;flex-wrap:wrap}
+h3.pl{font-family:Oswald,sans-serif;text-transform:none;letter-spacing:0;font-size:20px;margin:0;color:#14213D}
+h3.tn{font-size:22px;margin:0 0 8px}
+.steps li,.ucp li{margin:8px 0}
+.vh,h2,h3{scroll-margin-top:84px}
+#q{border:1px solid #E2DED5;border-radius:8px;font-size:18px}
+footer{margin-top:80px}
+.credits li{margin:4px 0}
+#qwrap,.qz{max-width:680px;margin-left:auto;margin-right:auto}
+.qz h2:focus{outline:none}
+.q{border:0;margin:8px 0 0;padding:0;min-width:0}
+.q legend{padding:0;margin:0 0 16px;font:700 26px/1.25 Oswald,sans-serif;text-transform:none;letter-spacing:0;color:#14213D}
+.qz.js .q{display:none}
+.qz.js .q.on{display:block}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.opt{display:block;width:100%;text-align:left;background:#fff;border:1px solid #E2DED5;border-radius:10px;padding:16px;font:700 17px/1.35 'Source Sans 3',sans-serif;color:#14213D;cursor:pointer}
+.opt span{display:block;font-weight:400;font-size:15px;color:#5A6273;margin-top:4px}
+.opt:hover,.opt:focus{border-color:#14213D;outline:none;box-shadow:0 0 0 3px #FFD3B8}
+.opt[aria-pressed=true]{background:#14213D;color:#fff;border-color:#14213D}
+.opt[aria-pressed=true] span{color:#D6DAE3}
+.qnav{margin:16px 0 0}
+.qback{background:none;border:0;color:#C2410C;font:600 16px 'Source Sans 3',sans-serif;cursor:pointer;padding:4px 0;text-decoration:underline}
+.why{font-size:16px;margin:8px 0}
+.rnote{font-size:15px;color:#5A6273}
+@media(min-width:700px){
+.grid{grid-template-columns:1fr 1fr}
+.tiles{grid-template-columns:repeat(3,1fr)}
+.srcgrid{grid-template-columns:1fr 1fr}
+}
+@media(min-width:900px){
+.homehero{grid-template-columns:1.05fr .95fr;gap:48px;padding:48px 0 16px}
+}
+@media(min-width:1100px){
+.grid{grid-template-columns:1fr 1fr 1fr}
+.tiles{grid-template-columns:repeat(5,1fr)}
+}
+@media(max-width:600px){
+body{font-size:17px;line-height:1.65}
+h1,.hero h1{font-size:30px}
+h2,h2.kick{font-size:22px}
+h2{margin-top:48px}
+.issue > .card:not(.ucc),.ucp > .card:not(.ucc){margin:40px 0}
+.prod{flex-direction:column;align-items:flex-start}
+.opts{grid-template-columns:1fr}
+.q legend{font-size:22px}
+.glance div{border:0}
+}
+</style></head><body>
+<header><div class="wrap"><a class="logo" href="/"><picture><source media="(max-width: 600px)" srcset="/assets/logo-wide.png 1x, /assets/logo-wide@2x.png 2x"><img src="/assets/header-lockup.png" srcset="/assets/header-lockup.png 1x, /assets/header-lockup@2x.png 2x" alt="Main Street AI Brief - Daily AI tips for small business owners" width="369" height="56"></picture></a><button class="mt" aria-label="Menu" aria-expanded="false" onclick="var n=document.getElementById('nav');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">&#9776;</button><nav id="nav"><a href="/">Home</a><a href="/start-here/">Start here</a><a href="/use-cases/">Use cases</a><a href="/start-quiz/">Quiz</a><a href="/archive.html">Archive</a><a href="/about.html">About</a></nav></div></header>
+<div class="bar" id="signup"><form class="signup-form embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/mainstreetaibrief" method="post">
+    <p class="signup-heading">Get the free weekday brief</p>
+    <input type="email" name="email" required placeholder="Enter your email" spellcheck="false" autocomplete="email">
+    <input type="hidden" name="embed" value="1">
+    <button type="submit">Subscribe</button>
+  </form>
+<p class="gift"><span class="gd">Subscribe and get the free AI Readiness Scorecard. <a href="https://steadiwork.gumroad.com/l/ai-readiness-scorecard" rel="noopener">Get the scorecard &rarr;</a></span><a class="gm" href="https://steadiwork.gumroad.com/l/ai-readiness-scorecard" rel="noopener">Free gift: AI Readiness Scorecard &rarr;</a></p><p class="note">Confirm via email, then one short issue each weekday. Unsubscribe anytime.</p></div>
+<main class="wrap"><div class="issue"><img class="heroimg" src="/assets/img/photos/office-accountant-calculator.jpg" srcset="/assets/img/photos/office-accountant-calculator-800.jpg 800w, /assets/img/photos/office-accountant-calculator.jpg 1600w" sizes="(max-width:700px) 100vw, 680px" width="1600" height="1066" alt="Person reviewing paperwork with a calculator" fetchpriority="high"><p class="kick">Professional services · Sales · Oct 29, 2026</p><h1>Turn call notes into a client proposal in 30 minutes</h1><p class="opener">Today&#x27;s prompt turns the notes from your last discovery call into a one-page proposal, ideally before the client forgets why they called.</p><div class="callout"><p class="kick">Do this today</p><h2>Turn your discovery-call notes into a one-page client proposal</h2><p class="metaline">Setup about 30 minutes · Saves part of the blank-page time on each proposal (rough estimate)</p><ol class="steps"><li>Right after the call, tidy your notes: the client&#x27;s problem in their words, what they asked for, dates they mentioned and anything you said you won&#x27;t do.</li><li>Remove names, account numbers and anything private, then paste the notes into the prompt below with your fee.</li><li>Read the draft against your notes. Fix any promise, date or deliverable you didn&#x27;t actually agree to.</li><li>Answer the AI&#x27;s QUESTIONS list or ask the client, then send it the same day if you can.</li></ol><p><b>Copy-paste prompt</b> <button class="copy" data-t="pr">Copy prompt</button></p><pre class="prompt" id="pr">I run a small [accounting / consulting / agency / insurance] firm. Turn my discovery-call notes into a one-page proposal for [client business type]. Use only the facts in my notes; don&#x27;t invent results, guarantees, deadlines or prices. If something I need is missing, list it at the end under QUESTIONS instead of guessing.
+My notes (names and account details removed): [paste]
+Our fee for this: [fixed fee / monthly fee / hourly rate]
+What we will NOT do: [list]
+
+Write: 1) Your goal, in 2 sentences using the client&#x27;s own words from the notes. 2) What we&#x27;ll do: 3-5 bullets. 3) What&#x27;s not included. 4) Timeline, only from dates in my notes. 5) Fee, exactly as I wrote it. 6) Next step: one line on how to say yes. Plain English, under 400 words, no buzzwords.</pre><p class="privacy"><b>Privacy:</b> Don&#x27;t paste client names, tax IDs, account numbers, financial statements or anything covered by a confidentiality agreement; describe them instead (&quot;a 6-person dental office&quot;).</p><div class="example"><p class="lbl">Example output (illustrative, not real data)</p><p style="margin:4px 0">Example proposal summary for Example Bookkeeping Co.</p><div class="exw"><table class="ex"><tr><th>Section</th><th>What it says</th></tr><tr><td>Your goal</td><td>Close each month by the 10th and stop chasing receipts.</td></tr><tr><td>What we&#x27;ll do</td><td>Monthly reconciliation, a receipt checklist, one 20-minute review call.</td></tr><tr><td>Not included</td><td>Payroll, sales tax filings, catch-up work before January.</td></tr><tr><td>Fee</td><td>$[fixed monthly fee], billed on the 1st.</td></tr><tr><td>Next step</td><td>Reply &#x27;yes&#x27; and we&#x27;ll send the engagement letter.</td></tr></table></div></div><p class="walk"><a href="/use-cases/proposal-from-call-notes.html"><b>Full walkthrough &rarr;</b></a> <span class="small">steps, tool note and watch-outs</span></p></div><aside class="card ins" aria-label="Free weekday brief"><p class="kick">The free weekday brief</p><p class="insl"><b>Get one task like this every weekday, with a copy-paste prompt.</b></p><div class="insf">
+<form class="signup-form embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/mainstreetaibrief" method="post">
+    <p class="signup-heading">Get the free weekday brief</p>
+    <input type="email" name="email" required placeholder="Enter your email" spellcheck="false" autocomplete="email">
+    <input type="hidden" name="embed" value="1">
+    <button type="submit">Subscribe</button>
+  </form>
+</div><p class="small">Also free: <a href="https://steadiwork.gumroad.com/l/ai-readiness-scorecard?utm_source=mainstreetaibrief&amp;utm_medium=web&amp;utm_campaign=inline-proposal-from-call-notes" rel="noopener">the AI Readiness Scorecard</a>, 20 questions to see where AI fits in your business.</p></aside><div class="card tool"><p class="kick">Tool pick</p><h2><a href="https://betterproposals.io/" rel="noopener">Better Proposals (Starter plan)</a></h2><p>Proposal software with saved templates, interactive pricing tables and built-in digital signatures that it says comply with US and EU e-signature law.</p><p><b>Price:</b> Starter: $19/month per user billed monthly, or $13/month per user billed annually. 1 user seat and 10 documents sent per month; 14-day free trial, no card required. <span class="small">(checked 2026-10-29 on <a href="https://betterproposals.io/pricing" rel="noopener">the vendor's pricing page</a>; prices change)</span></p><p><b>Who it's for:</b> Solo consultants, bookkeepers and small agencies who send a few proposals a month.</p><p><b>Skip it if:</b> you send one or two proposals a year and a clean document plus an email does the job.</p><p class="small">Not sponsored. No affiliate link.</p></div><div class="card"><p class="kick">Worth knowing</p><ul class="wk"><li>SPI Research&#x27;s 2026 Impact of AI on Professional Services report, based on 245 organizations surveyed July 15 to September 16, 2026, found AI used on 43.6% of professional services projects, up from 23.1% in 2025. 59.9% of firms agree that clients expect AI-enabled service delivery, up from 45.0%. And 71.9% require human review before client delivery, but only 35.0% require source attribution or validation. SPI says the findings are self-reported from a nonrandom sample.<br><span class="sowhat"><b>So what:</b> Clients may expect you to use AI, but they still expect you to stand behind every line, so read the proposal before it goes out.</span><a class="srccard" href="https://www.einpresswire.com/article/950935250/ai-use-nearly-doubles-in-professional-services-but-revenue-gains-lag-spi-research-finds" rel="noopener" title="SPI Research, AI use nearly doubles in Professional Services, but revenue gains lag (Oct 20, 2026)"><span class="pub">SPI Research</span><span class="hl">AI use nearly doubles in Professional Services, but revenue gains lag</span><span class="meta">Oct 20, 2026 · einpresswire.com ↗</span></a></li></ul></div><div class="card close"><h2>Before you go</h2><p>Questions or a task you want covered? Email us at <a href="mailto:hello@mainstreetaibrief.com">hello@mainstreetaibrief.com</a>.</p><p>The Prompt Library&#x27;s Professional services and Sales sections have prompts for discovery-call questions, a proposal outline and an engagement scope clarifier. <a href="https://steadiwork.gumroad.com/l/small-business-prompt-library?utm_source=mainstreetaibrief&amp;utm_medium=web&amp;utm_campaign=proposal-from-call-notes" rel="noopener">Small-Business Prompt Library ($19) &rarr;</a></p><p>Know an owner who'd use this? Forward it.</p></div><p><a href="/archive.html">← All issues</a></p></div><script>document.querySelectorAll(".copy").forEach(function(b){b.addEventListener("click",function(){var t=document.getElementById(b.dataset.t).innerText;navigator.clipboard&&navigator.clipboard.writeText(t).then(function(){b.textContent="Copied";setTimeout(function(){b.textContent="Copy prompt"},1500)})})})</script></main>
+<footer><div class="wrap cols"><div><h3>About</h3><p>Plain-English AI for small business owners: what works, what to avoid, and what it means for your shop.</p><p>Educational content only, not legal, tax or financial advice. Verify any AI output before you use it with customers.</p><p><a href="/about.html#photo-credits">Photos via Pexels</a></p></div>
+<div><h3>Explore</h3><p><a href="/start-here/">Start here</a><br><a href="/start-quiz/">Where do I start? (quiz)</a><br><a href="/use-cases/">AI use cases by job</a><br><a href="/trades-services.html">Trades &amp; Services</a><br><a href="/retail-food.html">Retail &amp; Food</a><br><a href="/professional-services.html">Professional services</a><br><a href="/personal-care.html">Personal care</a><br><a href="/all-businesses.html">All businesses</a><br><a href="/archive.html">Archive</a><br><a href="/about.html">About</a></p></div>
+<div><h3>Products</h3><p><a href="https://steadiwork.gumroad.com/l/ai-readiness-kit" rel="noopener">AI Readiness Checklist &amp; Kit</a> ($29)<br><a href="https://steadiwork.gumroad.com/l/small-business-prompt-library" rel="noopener">Small-Business Prompt Library</a> ($19)<br><a href="https://steadiwork.gumroad.com/l/ai-starter-bundle" rel="noopener">Kit + Prompt Library bundle</a> ($39)</p><p>Sister sites: <a href="https://steadiwork.github.io/aisupplychainbrief/">AI Supply Chain Brief</a> · <a href="https://steadiwork.github.io/aicontextkit/">AI Context Kit</a></p><p>Disclosure: we may earn a commission from some links in the future; we'll label them. No affiliate links today.</p></div></div></footer><script>document.querySelectorAll("[data-focus-signup]").forEach(function(a){a.addEventListener("click",function(ev){ev.preventDefault();window.scrollTo({top:0,behavior:"smooth"});var e=document.querySelector("#signup input[type=email]");if(e)setTimeout(function(){e.focus()},350)})})</script><script data-goatcounter="https://mainstreetaibrief.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script></body></html>

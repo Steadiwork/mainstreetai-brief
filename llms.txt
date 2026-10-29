@@ -1,6 +1,7 @@
 # Main Street AI Brief
 > Plain-English AI for small business owners: what works, what to avoid, and what it means for your shop.
 
+- [Turn call notes into a client proposal in 30 minutes](https://mainstreetaibrief.com/issues/proposal-from-call-notes.html)
 - [Turn this week's specials into a week of posts](https://mainstreetaibrief.com/issues/restaurant-weekly-social-posts.html)
 - [Save your Local Services Ads history before the move](https://mainstreetaibrief.com/issues/local-services-ads-move-checklist.html)
 - [Ask every customer for a Google review in 15 minutes](https://mainstreetaibrief.com/issues/ask-for-google-reviews.html)
@@ -28,6 +29,7 @@
 - [Restaurant social media post ideas from your specials](https://mainstreetaibrief.com/use-cases/restaurant-weekly-social-posts.html): Turn this week's specials, hours and photos into a week of restaurant or café social posts with AI, in one sitting. Free prompt and example.
 - [Turn meeting notes into a client recap email in 5 minutes](https://mainstreetaibrief.com/use-cases/meeting-notes-to-client-recap.html): Send a clear recap of decisions, next steps and owners within the hour after every client meeting, drafted by AI from your notes and checked by you.
 - [Get clients to send their documents on time](https://mainstreetaibrief.com/use-cases/get-client-documents-on-time.html): Build a plain-English document checklist and a friendly three-step reminder sequence with AI, so you spend less of busy season chasing paperwork.
+- [How to write a proposal for a client from call notes](https://mainstreetaibrief.com/use-cases/proposal-from-call-notes.html): Turn discovery-call notes into a one-page client proposal with AI: goal, scope, what's not included, timeline and fee. Free prompt and example.
 - [Cut no-shows with better reminders and a clear deposit policy](https://mainstreetaibrief.com/use-cases/cut-no-shows.html): Write a friendly cancellation and deposit policy plus a reminder sequence with AI, so clients know the rules before they book and fewer forget.
 - [Win back clients who haven't rebooked](https://mainstreetaibrief.com/use-cases/rebook-lapsed-clients.html): Find regulars who are past their usual rebooking window and send a short, personal note, drafted with AI, that brings them back without discount-dumping.
 - [Write Instagram captions for your salon that get bookings](https://mainstreetaibrief.com/use-cases/salon-instagram-captions.html): Turn photos of your own salon work into a week of Instagram captions with AI, each ending with one clear way to book. Free prompt and example.
