@@ -1,6 +1,7 @@
 # Main Street AI Brief
 > Plain-English AI for small business owners: what works, what to avoid, and what it means for your shop.
 
+- [Let go of a difficult client without the drama](https://mainstreetaibrief.com/issues/let-go-of-a-client.html)
 - [Turn call notes into a client proposal in 30 minutes](https://mainstreetaibrief.com/issues/proposal-from-call-notes.html)
 - [Turn this week's specials into a week of posts](https://mainstreetaibrief.com/issues/restaurant-weekly-social-posts.html)
 - [Save your Local Services Ads history before the move](https://mainstreetaibrief.com/issues/local-services-ads-move-checklist.html)
@@ -33,6 +34,7 @@
 - [Cut no-shows with better reminders and a clear deposit policy](https://mainstreetaibrief.com/use-cases/cut-no-shows.html): Write a friendly cancellation and deposit policy plus a reminder sequence with AI, so clients know the rules before they book and fewer forget.
 - [Win back clients who haven't rebooked](https://mainstreetaibrief.com/use-cases/rebook-lapsed-clients.html): Find regulars who are past their usual rebooking window and send a short, personal note, drafted with AI, that brings them back without discount-dumping.
 - [Write Instagram captions for your salon that get bookings](https://mainstreetaibrief.com/use-cases/salon-instagram-captions.html): Turn photos of your own salon work into a week of Instagram captions with AI, each ending with one clear way to book. Free prompt and example.
+- [How to fire a client politely: text and script](https://mainstreetaibrief.com/use-cases/let-go-of-a-client.html): Stop booking a difficult client with a short, polite text and in-person script written with AI. Free prompt, example and watch-outs for salons and studios.
 
 ## Start here
 - [Start here: AI for small business beginners](https://mainstreetaibrief.com/start-here/)
