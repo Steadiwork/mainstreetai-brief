@@ -1,6 +1,7 @@
 # Main Street AI Brief
 > Plain-English AI for small business owners: what works, what to avoid, and what it means for your shop.
 
+- [Write a service agreement customers actually read](https://mainstreetaibrief.com/issues/recurring-service-agreement.html)
 - [Write a Google Business Profile description that works](https://mainstreetaibrief.com/issues/google-business-profile-description.html)
 - [Let go of a difficult client without the drama](https://mainstreetaibrief.com/issues/let-go-of-a-client.html)
 - [Turn call notes into a client proposal in 30 minutes](https://mainstreetaibrief.com/issues/proposal-from-call-notes.html)
@@ -27,6 +28,7 @@
 - [Tell customers about a price increase without losing them](https://mainstreetaibrief.com/use-cases/announce-a-price-increase.html): Use AI to draft a short, honest price-change notice and a phone script for regulars, so customers hear it from you early, with reasons and a date.
 - [Write a change order for extra work, signed first](https://mainstreetaibrief.com/use-cases/write-a-change-order.html): Turn a customer's 'can you also...' into a one-page change order with scope, price and schedule, signed before extra work starts. You set the price.
 - [Local Services Ads to Google Ads: what to save first](https://mainstreetaibrief.com/use-cases/local-services-ads-move-checklist.html): Google is moving Local Services Ads into Google Ads, and old performance reports won't carry over. Save them, record your settings, and recheck after.
+- [How to write a lawn care or cleaning service agreement](https://mainstreetaibrief.com/use-cases/recurring-service-agreement.html): Turn the terms you explain at every first visit into a one-page agreement for recurring customers: what's included, price, rain days, cancellation and renewal.
 - [Write product descriptions for 50 items in an afternoon](https://mainstreetaibrief.com/use-cases/write-product-descriptions.html): A batch method for writing accurate, on-brand product descriptions with AI from your own spec notes, in batches of 10, without the generic filler.
 - [Answer the same customer questions once: hours, orders, allergens](https://mainstreetaibrief.com/use-cases/answer-repeat-customer-questions.html): Turn the 10 questions customers ask every day into one accurate FAQ and a set of saved replies, so you stop typing the same answers in DMs and on the phone.
 - [Restaurant social media post ideas from your specials](https://mainstreetaibrief.com/use-cases/restaurant-weekly-social-posts.html): Turn this week's specials, hours and photos into a week of restaurant or café social posts with AI, in one sitting. Free prompt and example.
