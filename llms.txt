@@ -1,6 +1,7 @@
 # Main Street AI Brief
 > Plain-English AI for small business owners: what works, what to avoid, and what it means for your shop.
 
+- [Write menu descriptions that sell, allergens right](https://mainstreetaibrief.com/issues/menu-descriptions.html)
 - [Write a service agreement customers actually read](https://mainstreetaibrief.com/issues/recurring-service-agreement.html)
 - [Write a Google Business Profile description that works](https://mainstreetaibrief.com/issues/google-business-profile-description.html)
 - [Let go of a difficult client without the drama](https://mainstreetaibrief.com/issues/let-go-of-a-client.html)
@@ -31,6 +32,7 @@
 - [How to write a lawn care or cleaning service agreement](https://mainstreetaibrief.com/use-cases/recurring-service-agreement.html): Turn the terms you explain at every first visit into a one-page agreement for recurring customers: what's included, price, rain days, cancellation and renewal.
 - [Write product descriptions for 50 items in an afternoon](https://mainstreetaibrief.com/use-cases/write-product-descriptions.html): A batch method for writing accurate, on-brand product descriptions with AI from your own spec notes, in batches of 10, without the generic filler.
 - [Answer the same customer questions once: hours, orders, allergens](https://mainstreetaibrief.com/use-cases/answer-repeat-customer-questions.html): Turn the 10 questions customers ask every day into one accurate FAQ and a set of saved replies, so you stop typing the same answers in DMs and on the phone.
+- [How to write restaurant menu descriptions](https://mainstreetaibrief.com/use-cases/menu-descriptions.html): Write appetizing menu descriptions from your own ingredients and allergen notes with AI, then check every claim before the menu goes out.
 - [Restaurant social media post ideas from your specials](https://mainstreetaibrief.com/use-cases/restaurant-weekly-social-posts.html): Turn this week's specials, hours and photos into a week of restaurant or café social posts with AI, in one sitting. Free prompt and example.
 - [Turn meeting notes into a client recap email in 5 minutes](https://mainstreetaibrief.com/use-cases/meeting-notes-to-client-recap.html): Send a clear recap of decisions, next steps and owners within the hour after every client meeting, drafted by AI from your notes and checked by you.
 - [Get clients to send their documents on time](https://mainstreetaibrief.com/use-cases/get-client-documents-on-time.html): Build a plain-English document checklist and a friendly three-step reminder sequence with AI, so you spend less of busy season chasing paperwork.
