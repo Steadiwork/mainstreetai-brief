@@ -1,0 +1,145 @@
+[
+ {
+  "slug": "salon-instagram-captions",
+  "date": "2026-10-23",
+  "title": "Write a week of salon captions that get bookings",
+  "audience": "Personal care",
+  "tags": [
+   "Marketing"
+  ],
+  "opener": "Today's prompt turns photos of your own work into a week of Instagram captions, each ending with a clear way to book.",
+  "do_today": {
+   "task": "Turn photos of your own work into a week of Instagram captions that ask for a booking",
+   "setup": "about 20 minutes",
+   "saves": "most of the writing time on each post (rough estimate)",
+   "steps": [
+    "Pick 5 photos or videos of your own work from the last few weeks. Use client photos only if the client agreed.",
+    "For each one, jot down the service, what you did, one detail a client would notice and who it suits.",
+    "Paste your notes, your booking method and any real openings into the prompt below.",
+    "Edit each caption into your own voice and check every service name, price and opening against your booking app.",
+    "Post one a day and note which ones bring booking messages."
+   ],
+   "prompt": "I run a [salon/barbershop/nail or lash studio] in [town]. Write Instagram captions for these posts of my own work. Use only the details I give; don't invent services, prices, results, openings or client stories.\nHow clients book: [link in bio / booking app / DM / phone]\nOpenings this week (or 'none'): [days and times]\nOur voice: [3 words]\nPosts:\n1) [service] - [what I did] - [one detail a client would notice] - [who it suits]\n2) ...\n\nFor each post write: a short first line that names the result or the service, 2-3 short sentences, one call to book that matches how clients book, and up to 5 hashtags that name the service and [town]. No client names. No promises about results. If a detail is missing, ask me instead of guessing.",
+   "privacy": "Leave out client names, phone numbers, photos you don't have permission to share and anything about a client's health, skin or scalp conditions.",
+   "example": "Example captions for Example Hair Studio\nPost | First line | Call to book\nBalayage refresh | Soft, sunny blonde that grows out without a hard line. | Two Thursday spots left; book through the link in our bio.\nMen's fade | Clean skin fade with a textured top for the week ahead. | Book your next cut through the link in our bio.\nGel manicure | Short, glossy nails in a fall shade. | DM us 'nails' and we'll send open times."
+  },
+  "worth_knowing": [
+   {
+    "text": "Goldman Sachs 10,000 Small Businesses surveyed 2,473 graduates of its program (conducted by Babson College, Aug. 10 to 24, 2026). More than 85% said they use AI in some form, and 42% use it for financial analysis and business planning, more than double the 2024 rate.",
+    "sowhat": "These are graduates of a business-growth program, so they're likely ahead of most shops; one small job like today's is a fine place to start.",
+    "source": "Goldman Sachs, How Small Business Owners Are Using AI to Help Propel Growth (Oct 22, 2026)",
+    "url": "https://www.goldmansachs.com/insights/articles/how-small-business-owners-are-using-ai-to-help-propel-growth"
+   },
+   {
+    "text": "Meta expanded Muse, its AI agent available in the US and Canada, for small businesses. It can connect to your Instagram professional account analytics and Facebook Pages, plus tools such as Canva, Shopify and QuickBooks. Meta says nothing publishes, sends or spends without your approval, and that Muse is free for most of what people need, with paid subscription plans for more.",
+    "sowhat": "If you try it on your shop's Instagram, read every caption before you approve it, the same check as today's task.",
+    "source": "Meta, The Future Is for Everyone: Muse for Small Business (Sept 29, 2026; updated Oct 8, 2026)",
+    "url": "https://about.fb.com/news/2026/09/introducing-muse-small-business/"
+   }
+  ],
+  "close": {
+   "product": "library",
+   "line": "The Prompt Library's Personal care section has a client photo post prompt with a consent text, plus prompts for service menu descriptions and last-minute openings."
+  },
+  "usecase": "salon-instagram-captions"
+ },
+ {
+  "slug": "write-a-change-order",
+  "date": "2026-10-20",
+  "title": "Get extra work signed before you start it",
+  "audience": "Trades & Services",
+  "tags": [
+   "Sales",
+   "Operations"
+  ],
+  "opener": "When a customer asks \"can you also...\" mid-job, today's prompt turns that into a one-page change order they sign before you start.",
+  "do_today": {
+   "task": "Turn a customer's extra-work request into a signed change order",
+   "setup": "about 15 minutes",
+   "saves": "most of the writing on each change order (rough estimate)",
+   "steps": [
+    "Write down exactly what the customer asked for, in their words, with the date.",
+    "Decide the price and any extra days yourself, then paste them and the request into the prompt below.",
+    "Check every line: scope, what's not included, price, new total and schedule.",
+    "Get it signed before you start the extra work. Rules on written change orders vary by state, so check with your attorney or licensing board.",
+    "Save the signed copy and add the change to your final invoice."
+   ],
+   "prompt": "Write a one-page change order for my [trade] business. Use only these facts; don't add work, prices, dates or terms.\nOriginal job and price: [job, $amount]\nCustomer's request, in their words: [paste]\nMy price for the extra work: $[amount]\nExtra days: [number or none]\nPayment terms for this change: [terms]\n\nInclude: change order number [#] and date, the scope in plain English plus what's not included, a table of original price, this change and new total, the effect on schedule and payments, the line 'Work on this change starts only after we both sign', and signature lines for both of us. If anything is missing, list it under 'Questions for me' instead of guessing.",
+   "privacy": "Leave out the customer's name, address, phone and payment details; add them in your own form afterward.",
+   "example": "Change Order #2, Example Plumbing Co.\nScope: Install the customer-supplied garbage disposal and connect it to the existing wall switch. Not included: new wiring.\nItem | Amount\nOriginal contract | $[original price]\nThis change | $[your price]\nNew total | $[new total]\nSchedule: no extra days. Work starts only after we both sign."
+  },
+  "tool_pick": {
+   "name": "Contractor Foreman (Basic plan)",
+   "url": "https://contractorforeman.com/",
+   "price": "Basic (1 user): $49/month billed annually ($588 a year), with a 30-day free trial. Monthly billing starts at $139/month (Standard, up to 3 users).",
+   "price_url": "https://contractorforeman.com/pricing/",
+   "checked": "2026-10-20",
+   "what": "Construction management software. Its pricing page lists Change Orders that update the contract amount and get client approval by e-signature.",
+   "for": "Contractors who write change orders every month.",
+   "skip_if": "you write only a few a year. Check the plan comparison to confirm Change Orders is in your plan."
+  },
+  "worth_knowing": [
+   {
+    "text": "ServiceTitan, which sells contractor software, surveyed 1,017 U.S. contractors (May 26 to June 15, 2026). Only 11% place high or complete trust in their AI tools, and 58% report little or no trust. Among AI users, 35% named accuracy and reliability as their top concern.",
+    "sowhat": "That caution is healthy: you set the price and days, and AI only writes them up.",
+    "source": "ServiceTitan, The Update: 2026 State of AI in the Trades (Sept 29, 2026)",
+    "url": "https://www.servicetitan.com/press/servicetitan-report-finds-contractors-shifting-focus-from-ai-adoption-to-implementation-and-productivity"
+   },
+   {
+    "text": "Federal Reserve Bank of New York researchers studied the 2025 Small Business Credit Survey (employer firms, fielded September to November 2025). 46% of firms with employees used AI tools, but only 31% of respondents reported increased sales from it.",
+    "sowhat": "Judge AI by the office time it saves on paperwork like today's, not by new sales.",
+    "source": "Federal Reserve Bank of New York, Liberty Street Economics, AI Adoption and Employment Expectations (Oct 8, 2026)",
+    "url": "https://libertystreeteconomics.newyorkfed.org/2026/10/ai-adoption-and-employment-expectations-evidence-from-a-survey-of-small-business-owners/"
+   }
+  ],
+  "close": {
+   "product": "library",
+   "line": "The Prompt Library's Trades & Services section has a prompt for explaining a surprise problem found mid-job, plus prompts for estimates, scope of work and job completion summaries."
+  },
+  "usecase": "write-a-change-order"
+ },
+ {
+  "slug": "holiday-hours-notice",
+  "date": "2026-10-19",
+  "title": "Post your holiday hours everywhere in 15 minutes",
+  "audience": "All businesses",
+  "tags": [
+   "Customer service"
+  ],
+  "opener": "Thanksgiving is Thursday, November 26, and customers will check your hours before they drive over, so today you'll write your holiday hours once and post them everywhere.",
+  "do_today": {
+   "task": "Write one holiday hours notice and post it on every channel",
+   "setup": "about 15 minutes",
+   "saves": "most of the rewriting per channel (rough estimate)",
+   "steps": [
+    "List your real hours for every day that changes between Thanksgiving and New Year's Day, plus how customers can reach you for anything urgent.",
+    "Paste that list into your AI assistant with the prompt below.",
+    "Check every date, day of the week and time in the draft against your list before you copy it anywhere.",
+    "On Google, add the changed days as Special hours so your regular hours stay the same: Edit profile, then Hours, then Edit next to Special hours.",
+    "Put up the door sign, update your website, post the social version and send the email to your regular customers."
+   ],
+   "prompt": "You help me tell customers about holiday hours for my [type of business] in [town].\nHere are my real hours. Use only these, exactly as written:\n[day, date: hours or Closed]\n[day, date: hours or Closed]\nRegular hours start again on: [date].\nFor anything urgent, customers can: [phone, email, or 'no urgent line'].\n\nWrite five versions with exactly the same facts:\n1) A door sign, under 25 words.\n2) One line for the top of my website.\n3) A social post under 60 words, friendly, no hashtags.\n4) A short email to regular customers, with a subject line.\n5) A voicemail or auto-reply message under 40 words.\nWrite the day of the week next to every date. Do not add hours, dates, sales or offers I haven't listed. If something is missing, write [MISSING] instead of guessing.",
+   "privacy": "You only need your hours and a public phone or email; don't paste customer lists, staff schedules or anyone's personal details.",
+   "example": "Door sign: Holiday hours at Example Hardware Co. Thursday, Nov 26: Closed. Friday, Nov 27: 9 am to 3 pm. Regular hours Saturday, Nov 28. Thank you.\nWebsite line: Closed Thanksgiving Day (Thursday, Nov 26). Open 9 am to 3 pm Friday, Nov 27.\nDay | Google Special hours\nThu, Nov 26 | Closed\nFri, Nov 27 | 9:00 AM to 3:00 PM\nThu, Dec 24 | 9:00 AM to 1:00 PM\nFri, Dec 25 | Closed"
+  },
+  "worth_knowing": [
+   {
+    "text": "Pax8, which sells AI and cloud software through IT providers, surveyed 1,150 leaders at companies with 5 to 499 employees in the U.S., U.K., Germany and Sweden for its Q3 2026 SMB AI Pulse. 55% of decision-makers said they personally spend three or more hours a week reviewing, editing or fact-checking AI-generated work, and 7% spend ten hours or more.",
+    "sowhat": "Checking AI's work is normal. For a notice like today's, the check is quick: compare every date and time with your own list.",
+    "source": "Pax8, Q3 2026 SMB AI Pulse Report (Oct 12, 2026)",
+    "url": "https://www.pax8.com/en-us/news-post/pax8-research-finds-small-businesses-are-building-ai-faster-than-they-can-govern-it/"
+   },
+   {
+    "text": "The SBE Council, a small-business advocacy group, surveyed 516 owners with 2 to 99 employees (Sept 11 to 19, 2026). Asked which marketing worked best for finding new customers, 28% named social media, 22% word of mouth and 5% email. 36% said customer spending fell over the past six months, and 28% saw customers seeking discounts or promotions.",
+    "sowhat": "Owners in this survey ranked social media first, so don't skip the social version of today's notice.",
+    "source": "SBE Council, Small Business Check Up Survey (Oct 8, 2026)",
+    "url": "https://sbecouncil.org/2026/10/08/new-small-business-check-up-survey-main-street-businesses-are-powering-through-2026/"
+   }
+  ],
+  "close": {
+   "product": "library",
+   "line": "The Prompt Library has a holiday-hours prompt plus 115 others for the posts, emails and replies you write every week."
+  },
+  "usecase": "holiday-hours-notice"
+ }
+]
