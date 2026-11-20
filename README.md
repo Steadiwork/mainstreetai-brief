@@ -1,2 +1,2 @@
 # mainstreetai-brief
-Main Street AI Brief: a free weekday AI newsletter for small businesses.
+Main Street AI Brief: a free weekly AI newsletter for small businesses, published every Friday.
