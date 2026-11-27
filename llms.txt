@@ -1,6 +1,7 @@
 # Main Street AI Brief
 > Plain-English AI for small business owners: what works, what to avoid, and what it means for your shop.
 
+- [Write aftercare instructions clients actually follow](https://mainstreetaibrief.com/issues/aftercare-instructions.html)
 - [Write an engagement letter scope clients understand](https://mainstreetaibrief.com/issues/engagement-letter-scope.html)
 - [Write a catering quote they can say yes to](https://mainstreetaibrief.com/issues/write-a-catering-quote.html)
 - [Write one return policy for your counter and your site](https://mainstreetaibrief.com/issues/write-a-return-policy.html)
@@ -53,6 +54,7 @@
 - [Write Instagram captions for your salon that get bookings](https://mainstreetaibrief.com/use-cases/salon-instagram-captions.html): Turn photos of your own salon work into a week of Instagram captions with AI, each ending with one clear way to book. Free prompt and example.
 - [How to fire a client politely: text and script](https://mainstreetaibrief.com/use-cases/let-go-of-a-client.html): Stop booking a difficult client with a short, polite text and in-person script written with AI. Free prompt, example and watch-outs for salons and studios.
 - [Salon client intake form: what to ask (with template)](https://mainstreetaibrief.com/use-cases/salon-client-intake-form.html): What a salon client intake form should ask, and how to draft one with AI in about 20 minutes. Free prompt, example form and privacy watch-outs.
+- [Aftercare instructions template clients will follow](https://mainstreetaibrief.com/use-cases/aftercare-instructions.html): How to write aftercare instructions clients follow: AI formats your own care rules into a one-page card in about 20 minutes. Free prompt, example, watch-outs.
 
 ## Start here
 - [Start here: AI for small business beginners](https://mainstreetaibrief.com/start-here/)
