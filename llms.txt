@@ -1,5 +1,7 @@
 # Main Street AI Brief
-> Plain-English AI for small business owners: what works, what to avoid, and what it means for your shop.
+> Friday crash courses and copyable setup blueprints for blue-collar trades and small manufacturing, plus an occasional small-business issue.
+
+Main Street AI Brief publishes once a week, on Friday. From Friday, December 4, 2026, new issues are miniature crash courses and copyable setup blueprints for AI and agentic workflows, such as setting up Grok Bot for one part of a small shop. Most issues cover blue-collar trades and small manufacturing. An occasional issue covers any small business. Issues and use cases published earlier stay as they are, including one-off prompts.
 
 - [Write aftercare instructions clients actually follow](https://mainstreetaibrief.com/issues/aftercare-instructions.html)
 - [Write an engagement letter scope clients understand](https://mainstreetaibrief.com/issues/engagement-letter-scope.html)
@@ -61,8 +63,8 @@
 - [Where do I start? A 5-question quiz](https://mainstreetaibrief.com/start-quiz/)
 
 ## By business type
-- [AI for trades & service businesses](https://mainstreetaibrief.com/trades-services.html): Practical AI for contractors, HVAC, plumbing, electrical, cleaning and landscaping owners: estimates, quote follow-ups and price notices, with prompts.
-- [AI for shops, restaurants and cafés](https://mainstreetaibrief.com/retail-food.html): Practical AI for shops, restaurants, cafés and bakeries: product descriptions, menu copy and answers to the questions customers ask every day, with prompts.
-- [AI for accountants, agencies and professional offices](https://mainstreetaibrief.com/professional-services.html): Practical AI for accountants, bookkeepers, agencies, consultants and law and insurance offices: client recaps and document requests, with copy-paste prompts.
-- [AI for salons, barbers, spas and studios](https://mainstreetaibrief.com/personal-care.html): Practical AI for salons, barbers, nail and lash techs, spas and trainers: cut no-shows, win back lapsed clients and write clear policies, with prompts.
-- [AI for any small business](https://mainstreetaibrief.com/all-businesses.html): AI use cases that work in any small business: replying to Google reviews, chasing unpaid invoices and writing job posts, with steps and copy-paste prompts.
+- [AI for trades & service businesses](https://mainstreetaibrief.com/trades-services.html): Practical AI for contractors, HVAC, plumbing, electrical, cleaning and landscaping owners: estimates, quote follow-ups and price notices, with one-off prompts.
+- [AI for shops, restaurants and cafés](https://mainstreetaibrief.com/retail-food.html): Practical AI for shops, restaurants, cafés and bakeries: product descriptions, menu copy and answers to the questions customers ask every day, with one-off prompts.
+- [AI for accountants, agencies and professional offices](https://mainstreetaibrief.com/professional-services.html): Practical AI for accountants, bookkeepers, agencies, consultants and law and insurance offices: client recaps and document requests, with one-off prompts.
+- [AI for salons, barbers, spas and studios](https://mainstreetaibrief.com/personal-care.html): Practical AI for salons, barbers, nail and lash techs, spas and trainers: cut no-shows, win back lapsed clients and write clear policies, with one-off prompts.
+- [AI for any small business](https://mainstreetaibrief.com/all-businesses.html): AI use cases that work in any small business: replying to Google reviews, chasing unpaid invoices and writing job posts, with steps and one-off prompts.
